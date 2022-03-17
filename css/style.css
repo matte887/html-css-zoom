@@ -66,16 +66,16 @@ footer {
     height: 90px;
     display: flex;
     background-color: #222222;
+    justify-content: space-between;
 }
 
 .buttons-c {
-    width: 35%;
+    /* width: 35%; */
     display: flex;
     justify-content: space-between;
 }
 
 .buttons-l, .buttons-r {
-    flex-grow: 1;
     display: flex;
     padding-left: 1rem;
 }
@@ -108,6 +108,10 @@ footer {
 
 #share {
     margin-right: 0;
+}
+
+.buttons-c .button {
+    margin: 0 1rem;
 }
 
 .main-button.share i {
