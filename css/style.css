@@ -37,11 +37,16 @@ header {
 main {
     width: 100%;
     height: calc(100vh - 170px);
+    background-color: black;
+    overflow-y: auto;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    overflow-y: auto;
-    background-color: black;
 }
 
 .partecipant {
