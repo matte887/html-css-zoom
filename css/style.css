@@ -48,15 +48,23 @@ main {
 }
 
 .partecipant {
+    width: 250px;
+    height: 150px;
     position: relative;
     margin: .2rem;
+}
+
+.partecipant img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .label {
     background-color: rgba(0, 0, 0, 0.3);
     padding: .5rem .3rem;
     position: absolute;
-    bottom: 3px;
+    bottom: 0;
     left: 0;
 }
 
@@ -83,6 +91,15 @@ footer {
     padding-left: 1rem;
 }
 
+.buttons-r {
+    font-weight: bold;
+    color: red;
+    align-items: center;
+    align-self: stretch;
+    padding: 0 1rem;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
 /* footer buttons */
 .button {
     display: flex;
@@ -95,7 +112,7 @@ footer {
     align-items: center;
 }
 
-.main-button > i {
+.main-button i {
     font-size: 1.7rem;
     margin-bottom: .5rem;
 }
@@ -114,12 +131,4 @@ footer {
 
 .main-button.share i {
     color: #4bc802;
-}
-
-.buttons-r a {
-    font-weight: bold;
-    color: red;
-    padding: 0 1rem;
-    line-height: 90px;
-    background-color: rgba(255, 255, 255, 0.3);
 }
